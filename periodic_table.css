@@ -1,0 +1,92 @@
+body {
+	font-family: sans-serif;
+  	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #000000;
+	margin-top: 40px;
+}
+
+/* Element styles */
+.actinide {
+    stroke-width: 1px;
+    stroke: #333333;
+	fill: #fafa6e;
+    fill-opacity: 0.6;
+}
+.alkali_metal {
+    stroke-width: 1px;
+    stroke: #333333;
+	fill: #c4ec74;
+    fill-opacity: 0.6;
+}
+.alkaline_earth_metal {
+    stroke-width: 1px;
+    stroke: #333333;
+	fill: #92dc7e;
+    fill-opacity: 0.6;
+}
+.diatomic_nonmetal {
+    stroke-width: 1px;
+    stroke: #333333;
+	fill: #64c987;
+    fill-opacity: 0.6;
+}
+.lanthanide {
+    stroke-width: 1px;
+    stroke: #333333;
+	fill: #39b48e;
+    fill-opacity: 0.6;
+}
+.metalloid {
+    stroke-width: 1px;
+    stroke: #333333;
+	fill: #089f8f;
+    fill-opacity: 0.6;
+}
+.noble_gas {
+    stroke-width: 1px;
+    stroke: #333333;
+	fill: #00898a;
+    fill-opacity: 0.6;
+}
+.polyatomic_nonmetal {
+    stroke-width: 1px;
+    stroke: #333333;
+	fill: #08737f;
+    fill-opacity: 0.6;
+}
+.post_transition_metal {
+    stroke-width: 1px;
+    stroke: #333333;
+	fill: #215d6e;
+    fill-opacity: 0.6;
+}
+.transition_metal {
+    stroke-width: 1px;
+    stroke: #333333;
+	fill: #2a4858;
+    fill-opacity: 0.6;
+}
+.unknown {
+    stroke-width: 1px;
+    stroke: #333333;
+    fill: #239c70;
+    fill-opacity: 0.6;
+}
+:hover {
+    fill-opacity: 0.8;
+    cursor: pointer;
+}
+
+/* Text styles */
+.symbol {
+    font-size: 16px;
+    font-weight: bold;
+    fill: black;
+}
+.atomic-number {
+    font-size: 12px;
+    font-weight: bold;
+    fill: black;
+}
