@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html>
-	<head>
- 	<title>Periodic table of the elements</title>
- 	<meta charset='UTF-8' />
- 	<link rel='stylesheet' href='periodic_table.css'>
+<html lang='en'>
+ 	<head>
+ 		<meta http-equiv='Content-Type' content='text/html;charset=utf-8'/>
+		<link rel='stylesheet' href='periodic_table.css'>
+   		<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+
+		<title>Periodic table of the elements</title>
+		<script src='https://d3js.org/d3.v4.min.js'></script>
  	</head>
 
  	<body>
@@ -11,7 +14,6 @@
 	Element selected: <span id='element'> </span>
 	<p>
 	<svg width='1160' height='910' id='chart'></svg>
- 	<script src='https://d3js.org/d3.v4.min.js' charset='utf-8'></script>
 	<script>
 		'use strict'
 
